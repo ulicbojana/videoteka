@@ -84,9 +84,9 @@ public class videotekaFrame {
 		btnMovie.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String idMov = idMovie.getText();
-				TableModel tblModel = new DefaultTableModel(upiti.getVrste(idMov, "movie", ""), upiti.getKolone(idMov, "movie", ""));
-				table.setModel(tblModel);
-				scrollPane.setViewportView(table);
+//				TableModel tblModel = new DefaultTableModel(upiti.getVrste(idMov, "movie", ""), upiti.getKolone(idMov, "movie", ""));
+//				table.setModel(tblModel);
+//				scrollPane.setViewportView(table);
 			}
 		});
 		btnMovie.setBounds(165, 11, 67, 23);
@@ -105,9 +105,9 @@ public class videotekaFrame {
 		btnActor.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String idAct = idActor.getText();
-				TableModel tblModel = new DefaultTableModel(upiti.getVrste(idAct, "actor", ""), upiti.getKolone(idAct, "actor", ""));
-				table.setModel(tblModel);
-				scrollPane.setViewportView(table);
+//				TableModel tblModel = new DefaultTableModel(upiti.getVrste(idAct, "actor", ""), upiti.getKolone(idAct, "actor", ""));
+//				table.setModel(tblModel);
+//				scrollPane.setViewportView(table);
 			}
 		});
 		btnActor.setBounds(388, 11, 89, 23);
@@ -126,9 +126,9 @@ public class videotekaFrame {
 		btnUser.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String idUse = idUser.getText();
-				TableModel tblModel = new DefaultTableModel(upiti.getVrste(idUse, "user", ""), upiti.getKolone(idUse, "user", ""));
-				table.setModel(tblModel);
-				scrollPane.setViewportView(table);
+//				TableModel tblModel = new DefaultTableModel(upiti.getVrste(idUse, "user", ""), upiti.getKolone(idUse, "user", ""));
+//				table.setModel(tblModel);
+//				scrollPane.setViewportView(table);
 			}
 		});
 		btnUser.setBounds(624, 11, 89, 23);
@@ -147,9 +147,9 @@ public class videotekaFrame {
 		btnTitle.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String titles = title.getText();
-				TableModel tblModel = new DefaultTableModel(upiti.getVrste("", "movie", titles), upiti.getKolone("", "movie", titles));
-				table.setModel(tblModel);
-				scrollPane.setViewportView(table);
+//				TableModel tblModel = new DefaultTableModel(upiti.getVrste("", "movie", titles), upiti.getKolone("", "movie", titles));
+//				table.setModel(tblModel);
+//				scrollPane.setViewportView(table);
 			}
 		});
 		btnTitle.setBounds(165, 45, 67, 23);
